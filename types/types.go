@@ -19,7 +19,6 @@ type Config struct {
 	DBName   string
 }
 
-func (c *Config) CreateConfig(driver string) {
-	var dataConfig Config = *c
-	db, err = sql.Open(driver, dataConfig)
+func (c *Config) CreateConfig(cofig Config) (string, error) {
+	return "Ok", nil
 }

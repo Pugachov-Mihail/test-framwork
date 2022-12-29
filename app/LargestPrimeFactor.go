@@ -30,4 +30,8 @@ func min(z []int) {
 func main() {
 	a := dels()
 	min(a)
+	//Нахождение простого числа
+	if a%1 == 0 || a%a == 0 {
+
+	}
 }
